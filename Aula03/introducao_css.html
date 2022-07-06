@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="/css/area51.css">
+    <style>
+        p {
+            background-color: #c1c1c1;
+            /* Utilizando o nome do seletor, todos seletores desta página recebem esste estilo */
+        }
+
+        .destaque {
+            background-color: aquamarine;
+            /* Utilizando PONTO, todos os seletores que tenham o atributo class que contenha esse nome recebem o estilo */
+        }
+
+        #especifico {
+            border: 1px solid black;
+            /* Apenas o seletor que tenha o atributo id="#especifico", recebe esse estilo */
+        }
+    </style>
+</head>
+
+<body>
+    <a href="/index.html"> Retornar a Página Inicial</a>
+    <hr>
+
+    <p style="color: red;background-color: black; font-weight: bold;">Vermelho</p>
+    <!-- Estilo em linha é recomendado quando não passa de 3 atributos -->
+    <h1 style="color: green; background-color: whitesmoke; ;">S.E.Palmeiras</h1>
+    <span style="border: 1px dashed black;">Texto Normal</span>
+
+    <ul style="font-weight: bold; background: red; width: 200px;">
+        <li>A</li>
+        <li id="especifico">B</li>
+        <li>C</li>
+    </ul>
+
+    <img style="width: 100px; height: 100px; border-radius: 50%;" src="/Aula01/Interno/css.png" alt="">
+
+    <div style="text-align: center; border: 1px solid black;">
+        <p>A</p>
+        <p>B</p>
+        <p>C</p>
+    </div>
+    <p>Testando CSS
+    </p>
+    <span class="destaque">
+        A implantação, na prática, prova que o crescente aumento da densidade de bytes das mídias auxilia no aumento da
+        segurança e/ou na mitigação dos problemas dos métodos utilizados para localização e correção dos erros. Por
+        outro lado, a complexidade computacional imponha um obstáculo ao upgrade para novas versões dos paradigmas de
+        desenvolvimento de software. Acima de tudo, é fundamental ressaltar que o desenvolvimento de novas tecnologias
+        de virtualização ainda não demonstrou convincentemente que está estável o suficiente da confidencialidade
+        imposta pelo sistema de senhas.
+
+        A certificação de metodologias que nos auxiliam a lidar com o aumento significativo da velocidade dos links de
+        Internet nos obriga à migração da gestão de risco. Evidentemente, a lei de Moore causa uma diminuição do
+        throughput dos índices pretendidos. Do mesmo modo, o desenvolvimento contínuo de distintas formas de codificação
+        cumpre um papel essencial na implantação do impacto de uma parada total. O empenho em analisar o consenso sobre
+        a utilização da orientação a objeto facilita a criação dos procolos comumente utilizados em redes legadas. Neste
+        sentido, a consolidação das infraestruturas estende a funcionalidade da aplicação das ferramentas OpenSource.
+
+        No nível organizacional, a consulta aos diversos sistemas implica na melhor utilização dos links de dados dos
+        equipamentos pré-especificados. Nunca é demais lembrar o impacto destas possíveis vulnerabilidades, uma vez que
+        a criticidade dos dados em questão inviabiliza a implantação das formas de ação.
+    </span>
+    <br><br>
+    <i class="destaque">Hello</i>
+    <br>
+    <b id="especifico">Erick Gabriel</b>
+
+    <div>
+        Recebendo DIV Area51
+    </div>
+</body>
+
+</html>

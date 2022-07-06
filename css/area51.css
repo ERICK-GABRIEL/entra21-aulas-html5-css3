@@ -1,0 +1,33 @@
+div{
+    color: black; 
+    background-color: crimson;
+    border: 1px solid black;
+}
+
+a{
+    color: red;
+}
+
+.negrito{
+    font-weight: bold;
+    
+}
+
+.italico{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#enviar{
+    background-color: aquamarine;
+
+}
+#limpar{
+    background-color: white;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-style: italic;
+}

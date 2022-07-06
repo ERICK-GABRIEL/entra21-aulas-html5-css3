@@ -1,0 +1,62 @@
+body{
+    background-color: #1693a5;
+    color: black;
+}
+.fontwhite{
+    color: white;
+}
+
+.center{
+    text-align: center;
+}
+.botaoinsta{
+   
+    text-align: center;
+    border: 1.7px solid black;
+    background-color: #de1a72;
+    color: pink;
+
+}
+
+.textinsta{
+    text-decoration: none;
+    color: black;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    
+}
+
+.botaolinkedin{
+
+    border: 1.7px solid black;
+    background-color: blue;
+    color: white;
+
+}
+
+.textlinkedin{
+    
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.botaowhats{
+    border: 1.7px solid black;
+    background-color: rgb(31, 205, 118);
+    color: white;
+
+}
+
+.textwhats{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
