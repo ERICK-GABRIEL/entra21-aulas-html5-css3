@@ -1,62 +1,97 @@
-body{
+body {
     background-color: #1693a5;
     color: black;
 }
-.fontwhite{
+
+h1 {
     color: white;
+    text-align: center;
+    background-color: black;
+    font-size: 35px;
+    font-style: italic;
 }
 
-.center{
+.center {
     text-align: center;
 }
-.botaoinsta{
-   
+
+.botaoinsta {
     text-align: center;
-    border: 1.7px solid black;
+    border-radius: 10px;
     background-color: #de1a72;
     color: pink;
-
+    border: 1.9px solid #7a2f95;
 }
 
-.textinsta{
+.textinsta {
     text-decoration: none;
-    color: black;
+    color: whitesmoke;
     font-size: medium;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
-    
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.botaolinkedin{
-
-    border: 1.7px solid black;
+.botaolinkedin {
+    border-radius: 10px;
+    border: 1.9px solid black;
     background-color: blue;
     color: white;
-
 }
 
-.textlinkedin{
-    
+.textlinkedin {
     text-decoration: none;
     color: white;
     font-size: medium;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.botaowhats{
-    border: 1.7px solid black;
+.botaowhats {
+    border-radius: 10px;
+    border: 1.9px solid black;
     background-color: rgb(31, 205, 118);
     color: white;
-
 }
 
-.textwhats{
+.textwhats {
     text-decoration: none;
     color: white;
     font-size: medium;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
 
+.botaogithub {
+    border-radius: 10px;
+    border: 1.7px solid white;
+    background-color: black;
+    color: white;
 }
 
 
+.textgithub {
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.textcurriculo {
+    font-family: 'Bitter', serif;
+
+}
+
+.titulo {
+    font-family: 'Six Caps', sans-serif;
+    font-size: 40px;
+
+
+
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    background-color: black;
+    font-size: 40px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-style: italic;
+}
