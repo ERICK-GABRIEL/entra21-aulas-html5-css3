@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="/css/site.css">
+    <style>
+        html {
+            background-color: lightskyblue;
+            padding: 20px;
+        }
+
+        nav a {
+            color: black;
+
+        }
+
+        nav a:hover {
+            color: purple;
+        }
+
+        nav ul {
+            background-color: lightskyblue;
+        }
+
+        #limpar {
+            background-color: darkcyan;
+            border-radius: 4px;
+            border: 1px solid gray;
+            padding: 2px;
+        }
+
+        #enviar {
+            background-color: lightskyblue;
+            border-radius: 4px;
+            border: 1px solid gray;
+            padding: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="/Aula04/img/novo-envelope-de-e-mail.png" alt="">
+        <h1>Contato</h1>
+        <h1></h1>
+
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/index.html"> Página Inicial</a></li>
+            <li><a href="/Aula04/index.html"> Início</a></li>
+            <li><a href="/Aula04/cv.html"> Currículo</a></li>
+            <li><a href="/Aula04/cv.html"> Contato</a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+        <h2> Entre em Contato comigo! </h2>
+        <form action="mailto:erick3000msn9@gmail.com?subject+Contato via site pessoal" method="post"
+            enctype="text/plain">
+            <label for="nome">Nome: </label>
+            <input type="text" name="nome" id="nome" placeholder="Insira seu nome:" required>
+            <br>
+            <label for="telfone">Telefone: </label>
+            <input type="tel" telefone="telefone" id="telefone" placeholder="Insira o telefone" required>
+            <br>
+            <label for="assunto">Assunto: </label>
+            <textarea name="assunto" id="assunto" cols="30" rows="10"></textarea>
+            <br>
+            <input type="reset" value="Resetar" id="limpar">
+            <input type="submit" value="Enviar" id="enviar">
+
+            <hr>
+            <a style="text-decoration: none; font-size: x-large; "
+                href="https://mail.google.com/mail/u/0/?fs=1&to=erick3000msn9@gmail.com&su=Contato+-+via+site+pessoal&body=Ol%C3%A1+Erick+Tudo+bem?&tf=cm">Prefere Gmail?</a>
+
+
+        </form>
+
+    </main>
+
+    <footer>
+        <hr>
+
+    </footer>
+</body>
+
+</html>
